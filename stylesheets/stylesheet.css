@@ -526,7 +526,22 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
+/*note to self to never spend that much time on photoshop */
+a.Twitter {
+  width: 134px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #fff;
+}
 a.button small {
+  display: block;
+  font-size: 11px;
+}
+a.Twitter small {
   display: block;
   font-size: 11px;
 }
@@ -535,6 +550,12 @@ header a.button {
   top: 0;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+header a.Twitter {
+  position: absolute;
+  top:0;
+  right: 0;
+  background: transparent url(../images/twitter-button.png) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
@@ -878,4 +899,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
