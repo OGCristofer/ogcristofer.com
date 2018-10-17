@@ -565,7 +565,14 @@ aside a.button {
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
-
+aside a.twitter {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+}
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -863,7 +870,28 @@ footer a:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
+  header a.Twitter {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #2879d0;
+    text-align: center;
+    background-color: #9ddcff;
+    background-image: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
   header a.button small {
+    display: inline;
+    font-size: 13px;
+  }
+  header a.twitter small {
     display: inline;
     font-size: 13px;
   }
@@ -880,6 +908,9 @@ footer a:hover {
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
+    display: none;
+  }
+  aside#sidebar a.twitter {
     display: none;
   }
   #main-content h1:before,
