@@ -1,0 +1,3 @@
+#!/bin/bash
+clear
+echo "Good morning, world."> /website/test.txt
