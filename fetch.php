@@ -1,7 +1,7 @@
 <?php
 if ($_GET['run']) {
   # This code will run if ?run=true is set.
-  exec("/website/fetch");
+  exec("/fetch");
 }
 ?>
 
