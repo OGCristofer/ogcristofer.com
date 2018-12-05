@@ -575,7 +575,7 @@ aside a.twitter {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #7CCEFE;
     overflow: hidden;
 }
 
@@ -597,7 +597,7 @@ aside a.twitter {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #275da1;
+    background-color: #82E6F6;
     color: white;
 }
 code, pre {
